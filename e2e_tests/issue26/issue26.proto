@@ -1,0 +1,13 @@
+        syntax = "proto3";
+
+        package bikes;
+
+        message Engine {
+            int32 displacement = 2;
+        }
+
+        message Motorcycle {
+            string brand = 1;
+            string name = 2;
+            Engine engine = 3;
+        }
